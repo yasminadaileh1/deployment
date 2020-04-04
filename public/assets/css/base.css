@@ -5,6 +5,19 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+section#top .one.dark.cover{
+    position: sticky;
+    background-image: none;
+    background-color: none;
+}
+video{
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
 mark {
 	background-color: transparent;
 	color: inherit;
